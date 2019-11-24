@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Postman
+Icon=/opt/postman/app/resources/app/assets/icon.png
+Exec=/usr/local/bin/postman
+Categories=Development;
+MimeType=x-scheme-handler/postman
+Terminal=false
+
