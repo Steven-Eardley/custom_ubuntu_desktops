@@ -1,13 +1,13 @@
 [Desktop Entry]
 Version=1.0
+Type=Application
+NoDisplay=true
+Exec=/usr/local/bin/firefox %u
 Name=Firefox Developer Edition
 GenericName=Web Browser
-Exec=/usr/local/bin/firefox --class FirefoxDeveloper
-StartupWMClass=FirefoxDeveloper
 Terminal=false
 X-MultipleArgs=false
 Icon=/opt/firefox/browser/chrome/icons/default/default128.png
-Type=Application
 Comment=Firefox Developer Edition Web Browser
 Categories=GNOME;GTK;Network;WebBrowser;
 MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;x-scheme-handler/chrome;video/webm;application/x-xpinstall;
@@ -16,8 +16,8 @@ Actions=new-window;new-private-window;
 
 [Desktop Action new-window]
 Name=Open a New Window
-Exec=/usr/local/bin/firefox --class FirefoxDeveloper -new-window
+Exec=/usr/local/bin/firefox -new-window
 
 [Desktop Action new-private-window]
 Name=Open a New Private Window
-Exec=/usr/local/bin/firefox --class FirefoxDeveloper -private-window
+Exec=/usr/local/bin/firefox -private-window

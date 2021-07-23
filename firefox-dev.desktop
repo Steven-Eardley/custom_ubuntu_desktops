@@ -1,0 +1,21 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+NoDisplay=true
+Exec=/opt/firefox/firefox %u
+Name=Firefox Developer Edition
+GenericName=Web Browser
+Terminal=false
+Icon=/opt/firefox/browser/chrome/icons/default/default128.png
+Comment=Firefox Developer Edition Web Browser
+Categories=Application;Network;WebBrowser;X-Developer;
+StartupWMClass=Firefox Developer Edition
+Actions=new-window;new-private-window;
+
+[Desktop Action new-window]
+Name=Open a New Window
+Exec=/opt/firefox/firefox -new-window
+
+[Desktop Action new-private-window]
+Name=Open a New Private Window
+Exec=/opt/firefox/firefox -private-window
